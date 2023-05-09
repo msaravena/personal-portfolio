@@ -1,7 +1,8 @@
 import React from 'react';
 import './about.css';
 import ME from '../../assets/Marcos-about.jpg';
-import { FaAward } from 'react-icons/fa';
+import { IoSchoolOutline } from 'react-icons/io5';
+import { BsPersonWorkspace } from 'react-icons/bs';
 import { FiUsers } from 'react-icons/fi';
 import { VscFolderLibrary } from 'react-icons/vsc';
 
@@ -20,15 +21,15 @@ const About = () => {
         <div className="about__content">
           <div className="about__cards">
             <article className='about__card'>
-              <FaAward className='about__icon'/>
-              <h5>Experience</h5>
-              <small>3+ Years Working</small>
+              <IoSchoolOutline className='about__icon'/>
+              <h5>Academlo</h5>
+              <small>Leading Tech School in LA</small>
             </article>
 
             <article className='about__card'>
-              <FiUsers className='about__icon'/>
-              <h5>Clients</h5>
-              <small>300+ Woldwide</small>
+              <BsPersonWorkspace className='about__icon'/>
+              <h5>Training</h5>
+              <small>400+ hrs</small>
             </article>
 
             <article className='about__card'>
