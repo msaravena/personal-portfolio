@@ -25,7 +25,7 @@ const data = [
   {
     id:1,
     image: IMG3,
-    title: 'This a portfolio item title',
+    title: 'Admin Dashboard',
     github: 'https://github.com/msaravena/admin-dashboard',
     demo: 'https://spectacular-squirrel-6f50c3.netlify.app/'
   },
